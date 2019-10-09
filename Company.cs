@@ -20,7 +20,7 @@ namespace classes
             foreach (Employee employee in EmployeeList)
             {
 
-                Console.WriteLine($"{employee.FirstName} {employee.LastName}");
+                Console.WriteLine($"{employee.FirstName} {employee.LastName} || Start Date: {employee.StartDate}");
             }
         }
     }
